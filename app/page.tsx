@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
       </header>
       <main>
-        <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]" />
+        <div className="absolute inset-0 -z-10 h-screen w-screen bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]" />
         <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-green-500 opacity-20 blur-[100px]" />{" "}
         <p className="max-w-3xl mx-auto text-gray-500 sm:text-center">
           Healthy Expressions brings together artists of color, healthcare
@@ -20,7 +20,7 @@ export default function Home() {
           </span>
           .
         </p>
-        <article className="mt-56 max-w-3xl mx-auto sm:pl-8">
+        <section className="pt-56 max-w-3xl mx-auto sm:pl-8">
           <H2>What is Healthy Expressions?</H2>
           <P>
             Healthy Expressions is a new project consisting of cross-sector
@@ -31,8 +31,9 @@ export default function Home() {
             the Freedom/Wilkinson Corridor in Charlotte.
           </P>
           <H3 className="text-base text-gray-600 mt-4">
-            Each workshop will address the racial trauma in disenfranchised
-            communities using a specific theme:
+            Each <span className="text-green-500">workshop</span> will address
+            the racial trauma in disenfranchised communities using a specific
+            theme:
           </H3>
           <List
             items={[
@@ -44,7 +45,16 @@ export default function Home() {
               "African Drumming and Dance",
             ]}
           />
-        </article>
+        </section>
+        <section className="max-w-3xl mx-auto py-36 sm:pl-8">
+          <H2>Our Mission</H2>
+          <P>
+            This project aims to grow artists into teachers who can create fun
+            and experiential space to address common barriers and misperceptions
+            of affordability, accessibility, and necessity associated with
+            healing, education, and the arts in marginalized communities.
+          </P>
+        </section>
       </main>
     </div>
   );
