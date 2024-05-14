@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description:
       "A collaborative cross-sector healing and creating arts community, committed to uplifting teaching artist of color to share trauma-informed workshops designed to build resilience in marginalized communities.",
     images: ["/og.jpeg"],
+    url: "https://healthy-expressions.vercel.app/",
   },
 };
 
