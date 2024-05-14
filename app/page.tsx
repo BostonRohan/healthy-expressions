@@ -129,7 +129,7 @@ export default function Home() {
           <Link
             href="https://www.facebook.com/share/gPWn6ALpHuGHfiDd/?mibextid=lOuIew"
             target="_blank"
-            className={`${buttonVariants({ variant: "default" })} bg-[#4267B2] self-center hover:bg-[#4254b2]`}
+            className={`${buttonVariants({ variant: "default" })} !bg-[#4267B2] max-w-[224px] mx-auto hover:!bg-[#4254b2]`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
