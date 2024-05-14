@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: "Healthy Expressions",
   description:
     "A collaborative cross-sector healing and creating arts community, committed to uplifting teaching artist of color to share trauma-informed workshops designed to build resilience in marginalized communities.",
+  openGraph: {
+    title: "Healthy Expressions",
+    description:
+      "A collaborative cross-sector healing and creating arts community, committed to uplifting teaching artist of color to share trauma-informed workshops designed to build resilience in marginalized communities.",
+    images: ["/og.jpg"],
+  },
 };
 
 export default function RootLayout({
